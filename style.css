@@ -1,0 +1,20 @@
+body{
+    font-family: cursive;
+}
+.header{
+    background-color: black;
+    display: flex;
+    padding: 20px;
+    
+}
+.nav_opt{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.logo_img{
+     height: 50px;
+     width: 50px;  
+     margin-right: 1450px; 
+}
