@@ -22,3 +22,15 @@ body{
      width: 50px;  
      margin-right: 600px; 
 }
+.Middle-section{
+    margin-left: 40%;
+    margin-top: 300px;
+}
+.p1{
+    font-size: 60px;
+    color: white;
+}
+.p2{
+    font-size: 30px;
+    padding-left: 40px;
+}
