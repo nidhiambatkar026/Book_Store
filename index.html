@@ -1,51 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Store</title>
 </head>
 <style>
-    body{
-    margin: 0;
-    padding: 0;
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    .navbar{
+
+    .navbar {
         background-color: #bae8e8;
         height: 100px;
         width: auto;
         display: flex;
     }
-    .logo{
+
+    .logo {
         height: 90px;
+        margin-left: 10px;
     }
-    .menus{
+
+    .menus {
         margin-left: 600px;
         margin-top: 40px;
     }
-    .menu_item{
+
+    .menu_item {
         text-decoration: none;
         font-size: 25px;
         margin-right: 28px;
         color: #272343;
     }
-    .menu_item:hover{
+
+    .menu_item:hover {
         background-color: #ffd803;
         color: #fffffe;
         padding: 10px;
         border-radius: 25px;
     }
+
+    .bg_img {
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .poster{
+        position: relative;
+    }
+    .content{
+        text-align: center;
+        position: absolute;
+        top: 300px;
+        left: 600px;
+    }
+    p{
+        font-weight: bold;
+    }
+    .btn{
+        background-color: #bae8e8;
+        color: #272343;
+        height: 50px;
+        font-size: 15px;
+        border-radius: 25px;
+        border-color: #272343;
+        width: auto;
+    }
+    .btn:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        transition: 0.3s;
+        background-color: #ffd803;
+        color: #272343;
+    }
 </style>
+
 <body>
-    <div class="navbar">
-            <img src="./Images/Bookstore_logo.png" alt="Bookstore_logo" class="logo"/>
-        <div class="menus">
-            <a href="#" class="menu_item">Home</a>
-            <a href="#" class="menu_item">Gallery</a>
-            <a href="#" class="menu_item">Books</a>
-            <a href="#" class="menu_item">Register</a>
-            <a href="#" class="menu_item">Contact us</a>
+    <div class="container">
+        <div class="navbar">
+            <img src="./Images/Bookstore_logo.png" alt="Bookstore_logo" class="logo" />
+            <div class="menus">
+                <a href="#" class="menu_item">Home</a>
+                <a href="#" class="menu_item">Gallery</a>
+                <a href="#" class="menu_item">Books</a>
+                <a href="#" class="menu_item">Register</a>
+                <a href="#" class="menu_item">Contact us</a>
+            </div>
+        </div>
+        <div class="poster">
+            <img src="./Images/background.jpg" alt="background" class="bg_img" />
+            <div class="content">
+                <h1>Welcome to Our BookStore</h1>
+                <p>Discover a world of stories, knowledge, and imagination. Browse our collection for the perfect read!</p>
+                <button class="btn">Explore Now</button>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
