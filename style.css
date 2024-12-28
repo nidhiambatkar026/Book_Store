@@ -23,7 +23,7 @@ body {
 
 .menu_item {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 28px;
     color: #272343;
 }
@@ -71,7 +71,7 @@ p{
     background-color: #ffd803;
     color: #272343;
 }
-.gallery_heading{
+.heading{
     text-align: center;
 }
 .image_box{
@@ -85,5 +85,42 @@ p{
     cursor: pointer;
 }
 .Images:hover{
+    transform: scale(1.1);
+}
+.Registration Form{
+    height: 450px;
+    width: 600px;
+    border: 3px solid #272343;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px #272343;
+    background-color: #bae8e8;
+}
+.reg_form{
+    padding: 20px;
+}
+.inputs{
+    height: 40px;
+    width: auto;
+    margin: 20px;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 5px;
+}
+.Register_btn{
+    height: 35px;
+    width: 120px;
+    background-color: #ffd803;
+    margin-top: 20px;
+    margin-left: 250px;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 2px;
+    color: #272343;
+    cursor: pointer;
+}
+.Register_btn:hover{
     transform: scale(1.1);
 }
